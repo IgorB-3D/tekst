@@ -1,0 +1,29 @@
+.sel
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 6px;
+}
+
+.sel input
+{
+    padding: 5px;
+}
+
+.inputPanel
+{
+    display: flex;
+    gap: 6px;
+}
+
+.content
+{
+    flex-grow: 6;
+}
+
+.cn
+{
+    display: flex;
+    gap: 6px;
+}

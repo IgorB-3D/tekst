@@ -31,7 +31,7 @@ for (let i = 0; i < menuInputs.length; i++) {
         content.innerText = methods[i].definition
 
         let str = params[0].value
-        let pr = params[1].value.split(',').map(x => x * 1)
+        let pr = params[1].value.split(',').map(x => x.trim())
 
         res.innerHTML = methods[i].fn.apply(str, pr)
     })

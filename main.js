@@ -6,6 +6,7 @@ class Method {
 }
 
 const methods = [
+    new Method("Zwraca długość tekstu", function () { return this.length }),
     new Method("Zwraca znak pod indeksem", String.prototype.charAt),
     new Method("Zwraca kod znaku pod indeksem", String.prototype.charCodeAt),
     new Method("Zamienia tekst na duże litery", String.prototype.toUpperCase),

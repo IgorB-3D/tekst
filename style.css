@@ -1,6 +1,6 @@
 /*
 	Moja własna personalizacja bootstrapa.
-	Napisuje kolorki i cienie w domyślnym stylu.
+	Nadpisuje kolory / cienie w domyślnym stylu, żeby nie bolały w oczy.
 */
 
 .bg-primary { background: #42b983 !important; }

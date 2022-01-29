@@ -1,29 +1,22 @@
-.sel
-{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 6px;
+/*
+	Moja własna personalizacja bootstrapa.
+	Napisuje kolorki i cienie w domyślnym stylu.
+*/
+
+.bg-primary { background: #42b983 !important; }
+
+.btn-outline-primary {
+	color: #42b983;
+	border-color: #42b983;
 }
 
-.sel input
-{
-    padding: 5px;
+.btn-outline-primary:hover {
+	background: #42b983;
+	border-color: #42b983;
 }
 
-.inputPanel
-{
-    display: flex;
-    gap: 6px;
-}
-
-.content
-{
-    flex-grow: 6;
-}
-
-.cn
-{
-    display: flex;
-    gap: 6px;
+.form-control:focus, .btn:focus {
+	border-color: #42b983;
+	outline: 0;
+	box-shadow: 2px 2px #42b983;
 }

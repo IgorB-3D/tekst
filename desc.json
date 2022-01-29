@@ -1,0 +1,13 @@
+[
+	"Zwraca długość tekstu",
+    "Zwraca znak pod indeksem",
+    "Zwraca kod znaku pod indeksem",
+    "Zamienia tekst na duże litery",
+    "Zamienia tekst na małe litery",
+    "Zwraca pierwszy indeks znaku",
+    "Zwraca indeks ostatniego występienia znaku",
+    "Zwraca podciąg tekstu",
+    "Zwraca podciąg tekstu",
+    "Zwraca podciąg tekstu",
+    "Podmienia wszystkie wystąpienia wyrażenia w tekście"
+]
